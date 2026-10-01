@@ -6,7 +6,7 @@ extension:
   version: "1.0.0"
   description: "Ships the Architecture Discovery, Spec Generation & Enrichment, and Developer Copilot agents (stack-agnostic) plus a setup command that installs them into .github/agents."
   author: "Raamesh Bhardwaj (UST PACE)"
-  repository: "https://github.com/UST-PACE/speckit-ust-sdd"
+  repository: "https://github.com/Raamesh-Bhardwaj-UST/speckit-ust-sdd"
   license: "MIT"
 
 requires:

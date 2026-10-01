@@ -6,7 +6,7 @@ extension:
   version: "1.0.0"
   description: "Seeds a spec-driven, stack-agnostic dark mode standardization feature (spec, plan guidance, tasks shape) from the observex-ui 001 feature, with the Angular implementation as a worked example."
   author: "Raamesh Bhardwaj (UST PACE)"
-  repository: "https://github.com/UST-PACE/speckit-ust-sdd"
+  repository: "https://github.com/Raamesh-Bhardwaj-UST/speckit-ust-sdd"
   license: "MIT"
 
 requires:
