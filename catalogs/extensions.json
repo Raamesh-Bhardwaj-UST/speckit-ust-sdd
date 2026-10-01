@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-09-30T16:29:38Z",
+  "updated_at": "2026-10-01T04:21:14Z",
   "catalog_url": "https://raw.githubusercontent.com/UST-PACE/speckit-ust-sdd/main/catalogs/extensions.json",
   "extensions": {
     "dark-mode-standardization": {
@@ -12,7 +12,7 @@
       "license": "MIT",
       "repository": "https://github.com/UST-PACE/speckit-ust-sdd",
       "download_url": "https://github.com/UST-PACE/speckit-ust-sdd/releases/download/v1.0.0/dark-mode-standardization-1.0.0.zip",
-      "sha256": "0ac4731bc74536b984c232d4b1d4975bffefe7efda6a6f455ec8dc13c7c1811e",
+      "sha256": "c72628d08f01eca8243fee72f6a39ce974a5f246600a4d2edc29f9d885991e88",
       "requires": {
         "speckit_version": ">=1.0.0"
       },
@@ -37,7 +37,7 @@
       "license": "MIT",
       "repository": "https://github.com/UST-PACE/speckit-ust-sdd",
       "download_url": "https://github.com/UST-PACE/speckit-ust-sdd/releases/download/v1.0.0/ust-sdd-agents-1.0.0.zip",
-      "sha256": "0b67ef25620703c427f2e4df93ce6c1576b67556d5a3319ff8684ed2ddf1dd2e",
+      "sha256": "07d943bd5c2819bf4371c600895a77bb4e11592fcf7abf3d609ee7b6ef2f8483",
       "requires": {
         "speckit_version": ">=1.0.0"
       },

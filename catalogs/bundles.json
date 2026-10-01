@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-09-30T16:29:38Z",
+  "updated_at": "2026-10-01T04:21:14Z",
   "catalog_url": "https://raw.githubusercontent.com/UST-PACE/speckit-ust-sdd/main/catalogs/bundles.json",
   "bundles": {
     "ust-sdd": {
