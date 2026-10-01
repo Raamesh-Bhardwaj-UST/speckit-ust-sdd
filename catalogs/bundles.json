@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T06:34:50Z",
+  "updated_at": "2026-10-01T07:14:54Z",
   "catalog_url": "https://raw.githubusercontent.com/Raamesh-Bhardwaj-UST/speckit-ust-sdd/main/catalogs/bundles.json",
   "bundles": {
     "ust-sdd": {

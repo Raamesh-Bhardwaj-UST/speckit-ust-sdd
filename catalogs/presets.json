@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T06:34:50Z",
+  "updated_at": "2026-10-01T07:14:54Z",
   "catalog_url": "https://raw.githubusercontent.com/Raamesh-Bhardwaj-UST/speckit-ust-sdd/main/catalogs/presets.json",
   "presets": {
     "ust-brownfield-sdd": {
@@ -12,7 +12,7 @@
       "license": "MIT",
       "repository": "https://github.com/Raamesh-Bhardwaj-UST/speckit-ust-sdd",
       "download_url": "https://github.com/Raamesh-Bhardwaj-UST/speckit-ust-sdd/releases/download/v1.0.0/ust-brownfield-sdd-1.0.0.zip",
-      "sha256": "7c307fd3d16f87f2413abfd669b4e1f88a2963e6948fb353eed0533475bda36f",
+      "sha256": "c2daecba9efaaceab94c21e0c5553d8e4966900cd5a8873dcd018f6aa1353c24",
       "requires": {
         "speckit_version": ">=1.0.0"
       },
