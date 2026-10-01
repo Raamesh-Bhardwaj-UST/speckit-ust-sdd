@@ -2,4 +2,3 @@ dist/
 *.zip
 # created by `specify bundle validate` when run outside a project
 .specify/
-.venv/

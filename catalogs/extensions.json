@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T14:08:02Z",
-  "catalog_url": "https://raw.githubusercontent.com/UST-PACE/speckit-ust-sdd/main/catalogs/extensions.json",
+  "updated_at": "2026-10-01T14:30:39Z",
+  "catalog_url": "https://raw.githubusercontent.com/Raamesh-Bhardwaj-UST/speckit-ust-sdd/main/catalogs/extensions.json",
   "extensions": {
     "dark-mode-standardization": {
       "id": "dark-mode-standardization",
@@ -10,9 +10,9 @@
       "description": "Seeds a spec-driven, stack-agnostic dark mode standardization feature (spec, plan guidance, tasks shape) from the observex-ui 001 feature, with the Angular implementation as a worked example.",
       "author": "Raamesh Bhardwaj (UST PACE)",
       "license": "MIT",
-      "repository": "https://github.com/UST-PACE/speckit-ust-sdd",
-      "download_url": "https://github.com/UST-PACE/speckit-ust-sdd/releases/download/v1.1.0/dark-mode-standardization-1.1.0.zip",
-      "sha256": "edd13101222f359def1d3cf3373432aef195a274b5e853d6e8c337a11925cb4f",
+      "repository": "https://github.com/Raamesh-Bhardwaj-UST/speckit-ust-sdd",
+      "download_url": "https://github.com/Raamesh-Bhardwaj-UST/speckit-ust-sdd/releases/download/v1.1.0/dark-mode-standardization-1.1.0.zip",
+      "sha256": "ad7feb5c51738edf0800565c3c31d3b34648e8c5c2784f1e341cdbcf80ff4e8b",
       "requires": {
         "speckit_version": ">=1.0.0"
       },
@@ -35,9 +35,9 @@
       "description": "Ships the Architecture Discovery, Spec Generation & Enrichment, and Developer Copilot agents (stack-agnostic) plus a setup command that installs them into .github/agents.",
       "author": "Raamesh Bhardwaj (UST PACE)",
       "license": "MIT",
-      "repository": "https://github.com/UST-PACE/speckit-ust-sdd",
-      "download_url": "https://github.com/UST-PACE/speckit-ust-sdd/releases/download/v1.1.0/ust-sdd-agents-1.0.0.zip",
-      "sha256": "07d943bd5c2819bf4371c600895a77bb4e11592fcf7abf3d609ee7b6ef2f8483",
+      "repository": "https://github.com/Raamesh-Bhardwaj-UST/speckit-ust-sdd",
+      "download_url": "https://github.com/Raamesh-Bhardwaj-UST/speckit-ust-sdd/releases/download/v1.1.0/ust-sdd-agents-1.0.0.zip",
+      "sha256": "f60838d5f72e435a87a2b38930ee43887e27ad217d2225306cce6b50206aa475",
       "requires": {
         "speckit_version": ">=1.0.0"
       },

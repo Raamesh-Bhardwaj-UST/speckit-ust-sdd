@@ -28,7 +28,7 @@ So publishing means: component zips on a GitHub release, plus the three catalog 
 
 ## Publish (maintainer)
 
-1. Create the repo `UST-PACE/speckit-ust-sdd` (private or internal is fine) and push this folder as its root.
+1. Create the repo `Raamesh-Bhardwaj-UST/speckit-ust-sdd` (private or internal is fine) and push this folder as its root.
 2. Generate zips and catalogs for the tag:
    ```powershell
    uv tool install specify-cli --from git+https://github.com/github/spec-kit.git@v1.0.12
@@ -62,7 +62,7 @@ cd <target-repo>
 specify init --here --integration copilot --script ps --force   # --force: merge into a non-empty repo
 
 # 2. Register the UST catalogs (project-scoped, written under .specify/)
-$raw = "https://raw.githubusercontent.com/UST-PACE/speckit-ust-sdd/main/catalogs"
+$raw = "https://raw.githubusercontent.com/Raamesh-Bhardwaj-UST/speckit-ust-sdd/main/catalogs"
 specify extension catalog add "$raw/extensions.json" --name ust --install-allowed
 specify preset    catalog add "$raw/presets.json"    --name ust --install-allowed
 specify bundle    catalog add "$raw/bundles.json"    --id ust
