@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-09-30T16:29:38Z",
+  "catalog_url": "https://raw.githubusercontent.com/UST-PACE/speckit-ust-sdd/main/catalogs/bundles.json",
+  "bundles": {
+    "ust-sdd": {
+      "id": "ust-sdd",
+      "name": "UST Spec-Driven Development Kit",
+      "version": "1.0.0",
+      "role": "developer",
+      "description": "UST brownfield SDD setup distilled from observex-ui: brownfield constitution preset, Architecture Discovery / Spec Generation / Developer Copilot agents, and a dark mode standardization feature seed.",
+      "author": "Raamesh Bhardwaj (UST PACE)",
+      "license": "MIT",
+      "download_url": "https://raw.githubusercontent.com/UST-PACE/speckit-ust-sdd/v1.0.0/bundles/ust-sdd/bundle.yml",
+      "repository": "https://github.com/UST-PACE/speckit-ust-sdd",
+      "requires": {
+        "speckit_version": ">=1.0.12"
+      },
+      "provides": {
+        "extensions": 2,
+        "presets": 1,
+        "steps": 0,
+        "workflows": 0
+      },
+      "tags": [
+        "ust",
+        "brownfield",
+        "copilot",
+        "agents",
+        "dark-mode"
+      ]
+    }
+  }
+}

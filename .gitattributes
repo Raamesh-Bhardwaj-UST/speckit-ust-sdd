@@ -1,0 +1,3 @@
+# Keep release zips byte-identical across Windows/Linux checkouts (sha256 in catalogs)
+* text=auto eol=lf
+*.ps1 text eol=lf

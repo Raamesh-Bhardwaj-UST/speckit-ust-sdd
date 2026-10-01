@@ -1,0 +1,33 @@
+schema_version: "1.0"
+
+preset:
+  id: "ust-brownfield-sdd"
+  name: "UST Brownfield SDD"
+  version: "1.0.0"
+  description: "Brownfield-safe constitution (5 principles + engineering constraints + delivery workflow) distilled from observex-ui, made stack-agnostic, plus a /speckit-constitution wrapper that grounds it in the target repo."
+  author: "Raamesh Bhardwaj (UST PACE)"
+  repository: "https://github.com/UST-PACE/speckit-ust-sdd"
+  license: "MIT"
+
+requires:
+  speckit_version: ">=1.0.0"
+
+provides:
+  templates:
+    - type: "template"
+      name: "constitution-template"
+      file: "templates/constitution-template.md"
+      description: "UST brownfield constitution skeleton with stack placeholders"
+      replaces: "constitution-template"
+
+    - type: "command"
+      name: "speckit.constitution"
+      file: "commands/speckit.constitution.md"
+      description: "Wrap /speckit-constitution: ground the UST principles in this repo's real stack and architecture context"
+      strategy: "wrap"
+
+tags:
+  - "constitution"
+  - "brownfield"
+  - "governance"
+  - "ust"

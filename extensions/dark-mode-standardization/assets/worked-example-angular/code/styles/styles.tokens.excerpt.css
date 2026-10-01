@@ -1,0 +1,152 @@
+/* You can add global styles to this file, and also import other style files */
+@config "../tailwind.config.ts";
+@import "tailwindcss";
+
+@theme {
+  /* Dark mode configuration */
+  --color-scheme: light dark;
+  
+  --color-themeColor: oklch(52.5% 0.223 3.958);
+
+  --color-bgMain: var(--color-bgMain);
+  --color-textMain: var(--color-textMain);
+
+  --color-bgChatMessage: var(--color-bgChatMessage);
+  --color-textChatMessage: var(--color-textChatMessage);
+
+  --color-bgTextbox: var(--color-bgTextbox);
+  --color-textTextboxPlaceholder: var(--color-textTextboxPlaceholder);
+  --color-textTextboxInput: var(--color-textTextboxInput);
+
+  --color-textTextboxIconsDisabled: var(--color-textTextboxIconsDisabled);
+  --color-textTextboxIcons: var(--color-textTextboxIcons);
+
+  --color-bgSidebar: var(--color-bgSidebar);
+  --color-textSidebar: var(--color-textSidebar);
+
+  --color-bgSidebarActiveThread: var(--color-bgSidebarActiveThread);
+
+  --color-textSidebarIcons: var(--color-textSidebarIcons);
+  --color-textSidebarSubtle: var(--color-textSidebarSubtle);
+
+  --color-surface-page: var(--surface-page);
+  --color-surface-raised: var(--surface-raised);
+  --color-surface-inset: var(--surface-inset);
+  --color-surface-hover: var(--surface-hover);
+  --color-surface-selected: var(--surface-selected);
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-muted: var(--text-muted);
+  --color-text-disabled: var(--text-disabled);
+  --color-border-default: var(--border-default);
+  --color-border-strong: var(--border-strong);
+  --color-accent-primary: var(--accent-primary);
+  --color-accent-hover: var(--accent-hover);
+  --color-accent-subtle: var(--accent-subtle);
+  --color-focus-ring: var(--focus-ring);
+  --color-state-success: var(--state-success);
+  --color-state-warning: var(--state-warning);
+  --color-state-danger: var(--state-danger);
+  --color-state-info: var(--state-info);
+}
+
+/* Light Mode Variables */
+:root {
+  --header-height: 50px;
+  color-scheme: light;
+  
+  /* Z-index layers */
+  --z-index-dropdown: 1000;
+  --z-index-modal: 2000;
+
+  --color-bgMain: oklch(0.96 0.01 300);
+  --color-textMain: oklch(0.22 0.015 300);
+
+  --color-bgChatMessage: oklch(0.92 0.005 310);
+  --color-textChatMessage: oklch(0.25 0.015 310);
+
+  --color-bgTextbox: oklch(0.90 0.01 310);
+  --color-textTextboxPlaceholder: oklch(0.55 0.01 310);
+  --color-textTextboxInput: oklch(0.18 0.015 310);
+
+  --color-textTextboxIconsDisabled: oklch(0.70 0.005 310);
+  --color-textTextboxIcons: oklch(0.32 0.02 310);
+
+  --color-bgSidebar: oklch(0.93 0.01 300);
+  --color-textSidebar: oklch(0.20 0.02 300);
+
+  --color-bgSidebarActiveThread: oklch(0.86 0.015 300);
+
+  --color-textSidebarIcons: oklch(0.35 0.02 300);
+  --color-textSidebarSubtle: oklch(0.50 0.01 300);
+
+  --surface-page: #f7f8f8;
+  --surface-raised: #ffffff;
+  --surface-inset: #eff2f2;
+  --surface-hover: #e5f3f4;
+  --surface-selected: #d6edef;
+  --text-primary: #231f20;
+  --text-secondary: #4f4c4d;
+  --text-muted: #706d6e;
+  --text-disabled: #969394;
+  --border-default: #dfe2e3;
+  --border-strong: #c3c9ca;
+  --accent-primary: #007f90;
+  --accent-hover: #006e7d;
+  --accent-subtle: #e0f3f5;
+  --focus-ring: #007f90;
+  --state-success: #267445;
+  --state-warning: #8a5600;
+  --state-danger: #c83e3e;
+  --state-info: #176d86;
+  --agent-accent-purple: #8e44ad;
+  --text-on-accent: #ffffff;
+}
+
+/* Dark Mode Variables */
+.dark {
+  color-scheme: dark;
+
+  --color-bgMain: oklch(0.12 0.01 330);
+  --color-textMain: oklch(0.9 0.005 330);
+
+  --color-bgChatMessage: oklch(38.29% 0 0);
+  --color-textChatMessage: oklch(94.31% 0 0);
+
+  --color-bgTextbox: oklch(30.12% 0 0);
+  --color-textTextboxPlaceholder: oklch(73.48% 0 0);
+  --color-textTextboxInput: oklch(91.58% 0 0);
+
+  --color-textTextboxIconsDisabled: oklch(67.31% 0 0);
+  --color-textTextboxIcons: oklch(100% 0 0);
+
+  --color-bgSidebar: oklch(20.46% 0 0);
+  --color-textSidebar: oklch(96.74% 0.0013 286.37);
+
+  --color-bgSidebarActiveThread: oklch(24.78% 0 0);
+
+  --color-textSidebarIcons: oklch(77.31% 0 0);
+  --color-textSidebarSubtle: oklch(75.75% 0.0014 286.37);
+
+  --surface-page: #171b1c;
+  --surface-raised: #202627;
+  --surface-inset: #111516;
+  --surface-hover: #2a383a;
+  --surface-selected: #35484a;
+  --text-primary: #f2f5f5;
+  --text-secondary: #c5cdce;
+  --text-muted: #a1abad;
+  --text-disabled: #7a8587;
+  --border-default: #3b4547;
+  --border-strong: #536063;
+  --accent-primary: #56c2cc;
+  --accent-hover: #76d2da;
+  --accent-subtle: #243b3e;
+  --focus-ring: #71d2dc;
+  --state-success: #69d391;
+  --state-warning: #f2bd65;
+  --state-danger: #ff8585;
+  --state-info: #78cbe0;
+  --agent-accent-purple: #c99be6;
+  --text-on-accent: #102426;
+}

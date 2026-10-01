@@ -1,0 +1,25 @@
+schema_version: "1.0"
+
+extension:
+  id: "dark-mode-standardization"
+  name: "Dark Mode Standardization Seed"
+  version: "1.0.0"
+  description: "Seeds a spec-driven, stack-agnostic dark mode standardization feature (spec, plan guidance, tasks shape) from the observex-ui 001 feature, with the Angular implementation as a worked example."
+  author: "Raamesh Bhardwaj (UST PACE)"
+  repository: "https://github.com/UST-PACE/speckit-ust-sdd"
+  license: "MIT"
+
+requires:
+  speckit_version: ">=1.0.0"
+
+provides:
+  commands:
+    - name: "speckit.dark-mode-standardization.seed"
+      file: "commands/speckit.dark-mode-standardization.seed.md"
+      description: "Seed a dark mode standardization feature and continue through plan/tasks/implement"
+
+tags:
+  - "dark-mode"
+  - "theming"
+  - "ui"
+  - "accessibility"

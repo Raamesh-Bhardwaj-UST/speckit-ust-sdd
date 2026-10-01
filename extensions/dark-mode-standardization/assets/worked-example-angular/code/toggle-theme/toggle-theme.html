@@ -1,0 +1,9 @@
+<button
+    type="button"
+    class="inline-flex h-8 w-8 items-center justify-center rounded text-text-secondary transition-colors hover:bg-surface-hover hover:text-accent-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-focus-ring"
+    [attr.aria-label]="buttonLabel()"
+    [attr.aria-pressed]="isDark()"
+    [matTooltip]="buttonLabel()"
+    (click)="toggleTheme()">
+    <mat-icon [fontIcon]="iconName()" aria-hidden="true" />
+</button>
