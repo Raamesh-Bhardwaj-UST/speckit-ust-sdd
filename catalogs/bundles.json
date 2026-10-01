@@ -1,18 +1,18 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T07:14:54Z",
-  "catalog_url": "https://raw.githubusercontent.com/Raamesh-Bhardwaj-UST/speckit-ust-sdd/main/catalogs/bundles.json",
+  "updated_at": "2026-10-01T14:08:02Z",
+  "catalog_url": "https://raw.githubusercontent.com/UST-PACE/speckit-ust-sdd/main/catalogs/bundles.json",
   "bundles": {
     "ust-sdd": {
       "id": "ust-sdd",
       "name": "UST Spec-Driven Development Kit",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "role": "developer",
       "description": "UST brownfield SDD setup distilled from observex-ui: brownfield constitution preset, Architecture Discovery / Spec Generation / Developer Copilot agents, and a dark mode standardization feature seed.",
       "author": "Raamesh Bhardwaj (UST PACE)",
       "license": "MIT",
-      "download_url": "https://raw.githubusercontent.com/Raamesh-Bhardwaj-UST/speckit-ust-sdd/v1.0.0/bundles/ust-sdd/bundle.yml",
-      "repository": "https://github.com/Raamesh-Bhardwaj-UST/speckit-ust-sdd",
+      "download_url": "https://raw.githubusercontent.com/UST-PACE/speckit-ust-sdd/v1.1.0/bundles/ust-sdd/bundle.yml",
+      "repository": "https://github.com/UST-PACE/speckit-ust-sdd",
       "requires": {
         "speckit_version": ">=1.0.12"
       },

@@ -6,7 +6,7 @@ preset:
   version: "1.0.0"
   description: "Brownfield-safe constitution (5 principles + engineering constraints + delivery workflow) distilled from observex-ui, made stack-agnostic, plus a /speckit-constitution wrapper that grounds it in the target repo."
   author: "Raamesh Bhardwaj (UST PACE)"
-  repository: "https://github.com/Raamesh-Bhardwaj-UST/speckit-ust-sdd"
+  repository: "https://github.com/UST-PACE/speckit-ust-sdd"
   license: "MIT"
 
 requires:

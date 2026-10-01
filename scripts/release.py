@@ -23,7 +23,7 @@ from pathlib import Path
 import yaml  # ships with specify-cli; otherwise: pip install pyyaml
 
 ROOT = Path(__file__).resolve().parent.parent
-OWNER_REPO = "Raamesh-Bhardwaj-UST/speckit-ust-sdd"
+OWNER_REPO = "UST-PACE/speckit-ust-sdd"
 FIXED_TS = (1980, 1, 1, 0, 0, 0)
 SKIP = {".git", "__pycache__", ".DS_Store"}
 
