@@ -3,7 +3,7 @@ schema_version: "1.0"
 bundle:
   id: "ust-sdd"
   name: "UST Spec-Driven Development Kit"
-  version: "1.1.0"
+  version: "1.2.0"
   role: "developer"
   description: "UST brownfield SDD setup distilled from observex-ui: brownfield constitution preset, Architecture Discovery / Spec Generation / Developer Copilot agents, and a dark mode standardization feature seed."
   author: "Raamesh Bhardwaj (UST PACE)"
@@ -29,6 +29,8 @@ provides:
       version: "1.0.0"
     - id: "dark-mode-standardization"
       version: "1.1.0"
+    - id: "sync"
+      version: "0.1.0"
 
 tags:
   - "ust"

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-01T14:30:39Z",
+  "updated_at": "2026-10-07T03:04:26Z",
   "catalog_url": "https://raw.githubusercontent.com/Raamesh-Bhardwaj-UST/speckit-ust-sdd/main/catalogs/extensions.json",
   "extensions": {
     "dark-mode-standardization": {
@@ -11,7 +11,7 @@
       "author": "Raamesh Bhardwaj (UST PACE)",
       "license": "MIT",
       "repository": "https://github.com/Raamesh-Bhardwaj-UST/speckit-ust-sdd",
-      "download_url": "https://github.com/Raamesh-Bhardwaj-UST/speckit-ust-sdd/releases/download/v1.1.0/dark-mode-standardization-1.1.0.zip",
+      "download_url": "https://github.com/Raamesh-Bhardwaj-UST/speckit-ust-sdd/releases/download/v1.2.0/dark-mode-standardization-1.1.0.zip",
       "sha256": "ad7feb5c51738edf0800565c3c31d3b34648e8c5c2784f1e341cdbcf80ff4e8b",
       "requires": {
         "speckit_version": ">=1.0.0"
@@ -28,6 +28,36 @@
         "accessibility"
       ]
     },
+    "sync": {
+      "id": "sync",
+      "name": "Spec Sync",
+      "version": "0.1.0",
+      "description": "Detect and resolve drift between specs and implementation. AI-assisted resolution with human approval.",
+      "author": "Barry Gervin",
+      "license": "MIT",
+      "repository": "https://github.com/bgervin/spec-kit-sync",
+      "download_url": "https://github.com/Raamesh-Bhardwaj-UST/speckit-ust-sdd/releases/download/v1.2.0/sync-0.1.0.zip",
+      "sha256": "459a3408482ae202d6bc12a4adc1999e520c2230daf006dc022f3263a9bdf68a",
+      "requires": {
+        "speckit_version": ">=0.1.0",
+        "commands": [
+          "speckit.specify",
+          "speckit.tasks"
+        ]
+      },
+      "provides": {
+        "commands": 5,
+        "templates": 0,
+        "scripts": 0
+      },
+      "tags": [
+        "sync",
+        "drift",
+        "validation",
+        "bidirectional",
+        "ralph"
+      ]
+    },
     "ust-sdd-agents": {
       "id": "ust-sdd-agents",
       "name": "UST SDD Custom Agents",
@@ -36,7 +66,7 @@
       "author": "Raamesh Bhardwaj (UST PACE)",
       "license": "MIT",
       "repository": "https://github.com/Raamesh-Bhardwaj-UST/speckit-ust-sdd",
-      "download_url": "https://github.com/Raamesh-Bhardwaj-UST/speckit-ust-sdd/releases/download/v1.1.0/ust-sdd-agents-1.0.0.zip",
+      "download_url": "https://github.com/Raamesh-Bhardwaj-UST/speckit-ust-sdd/releases/download/v1.2.0/ust-sdd-agents-1.0.0.zip",
       "sha256": "f60838d5f72e435a87a2b38930ee43887e27ad217d2225306cce6b50206aa475",
       "requires": {
         "speckit_version": ">=1.0.0"
